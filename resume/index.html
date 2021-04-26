@@ -3,15 +3,78 @@
 <head>
     <title>Rachelle Clerjeau</title>
 </head>
-<body>
 
-<h1>Welcome!</h1>
-<p>
-Rachelle Clerjeau is a full time comic artist and part time student at Seminole state college of Florida. Although she is learning to be a game designer, Rachelle expanded her skill sets into learning all of industry level software such as adobe and Microsoft. Not only is she well versed in graphic design, she also has experience with print and web design. She spends her free time working on her webcomic and creating short animations on her Youtube channel. 
- </p>
+<style> 
     
-<h2>Skills</h2>
-    <ul>
+        body {
+  background: #feffde; 
+}
+
+  
+    
+*{
+  box-sizing: border-box;
+}
+
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; 
+    border-style: solid;
+    border-width: 2px;
+  border-color: #feffde;
+    color: white;
+}
+
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}    
+    
+* {
+  box-sizing: border-box;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}  
+    
+    .header {
+  padding: 60px;
+  text-align: center;
+  background: #28b5b5;
+  color: white;
+  font-size: 20px;
+}
+
+
+</style>
+<body>
+<div class="header">
+  <h1>Welcome!</h1>
+  <p>Rachelle Clerjeau is a full time comic artist and part time student at Seminole state college of Florida. Although she is learning to be a game designer, Rachelle expanded her skill sets into learning all of industry level software such as adobe and Microsoft. Not only is she well versed in graphic design, she also has experience with print and web design. She spends her free time working on her webcomic and creating short animations on her Youtube channel.</p>
+</div>
+
+
+
+
+ <div class="row1">
+  <div class="column1" style="background-color:#8fd9a8;">
+    <h2>Skills</h2>
+     <ul>
         <li>Animation</li> 
         <li>3D Modeling</li>
         <li>Illustration</li>
@@ -24,9 +87,10 @@ Rachelle Clerjeau is a full time comic artist and part time student at Seminole 
         <li>Traditional Media</li>
 
     </ul>
-    
-<h2>Software/Hardware</h2>
-      <ul>
+  </div>
+  <div class="column1" style="background-color:#8fd9a8;">
+    <h2>Software/Hardware</h2>
+    <ul>
         <li>Adobe Photoshop</li> 
         <li>Adobe Indesign</li>
         <li>Adobe XD</li>
@@ -38,9 +102,10 @@ Rachelle Clerjeau is a full time comic artist and part time student at Seminole 
         
 
     </ul>
-    
-<h2>Social Media</h2>
-    <ul>
+  </div>
+  <div class="column1" style="background-color:#8fd9a8;">
+    <h2>Social Media</h2>
+      <ul>
         <li>
         <a href="https://www.youtube.com/channel/UCCkH2kuyBxqOQCV6Q7uXN_w">Youtube</a>
         </li>
@@ -48,18 +113,60 @@ Rachelle Clerjeau is a full time comic artist and part time student at Seminole 
     
     
     </ul>
-    
+  </div>
+</div>
+   
+ 
 <h2>Work Examples</h2>
-    <img src="BigBadCity.jpg" alt="Book Jacket of the song Big City by Evalyn" height="500" width="">
-    <img src="Braindead_cover.jpg" alt="Book jacket of the song Brain Dead by Jarell Perry" height="500" width="">
-    <img src="coffee.jpg" alt="mock up of coffee design" height="600" width="">
-    <img src="tea_puch.png" alt="mock up of tea design" height="600" width="">
-    <img src="poster_movie.jpg" alt="Poster design" height="600" width="">
-    <img src="mobile_ad.png" alt="Moblie ad for movie" height="600" width="">
-    <img src="poster.jpg" alt="Poster of rap group" height="600" width="">
-    <img src="lanyard.png" alt="V.I.P lanyard design" height="600" width="">
-    <img src="logo.jpg" alt="logo for Monsta" height="600" width="">
-    <img src="kat_bunni-01.jpg" alt="Logo for Kat & Bunni" height="600" width="">
-    <img src="website.jpg" alt="website about plant care" height="900" width="">
+   
+   
+ <div class="row">
+  <div class="column">
+    <img src="BigBadCity.jpg" alt="Bookjacket" style="width:80%">
+  </div>
+  <div class="column">
+    <img src="Braindead_cover.jpg" alt="bookjacket" style="width:80%">
+  </div>
+  <div class="column">
+   
+  </div>
+</div>
+   
+   <div class="row">
+  <div class="column2">
+    <img src="coffee.jpg" alt="Bookjacket" style="width:100%">
+  </div>
+  <div class="column2">
+    <img src="tea_puch.png" alt="bookjacket" style="width:100%">
+  </div>
+  <div class="column2">
+    <img src="lanyard.png" alt="bookjacket" style="width:100%">
+  </div>
+</div>
+  
+   <div class="row">
+  <div class="column2">
+    <img src="poster_movie.jpg" alt="Bookjacket" style="width:100%">
+  </div>
+  <div class="column2">
+    <img src="poster.jpg" alt="bookjacket" style="width:100%">
+  </div>
+  
+</div>
+   
+    <div class="row">
+  <div class="column2">
+    <img src="logo.jpg" alt="Bookjacket" style="width:100%">
+  </div>
+  <div class="column2">
+    <img src="kat_bunni-01.jpg" alt="bookjacket" style="width:100%">
+  </div>
+  
+</div>
+  
+ 
+   
+   
+   
 </body>
 </html>
